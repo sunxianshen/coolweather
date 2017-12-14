@@ -2,9 +2,6 @@ package android.coolweather.com.coolweather.db;
 
 import org.litepal.crud.DataSupport;
 
-/**
- * Created by Administrator on 2017/11/29.
- */
 
 public class County extends DataSupport {
     private int id;

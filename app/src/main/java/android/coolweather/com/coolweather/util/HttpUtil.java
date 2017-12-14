@@ -3,9 +3,7 @@ package android.coolweather.com.coolweather.util;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 
-/**
- * Created by Administrator on 2017/11/29.
- */
+
 
 public class HttpUtil {
     public static void sendOkHttpRequest(String address,okhttp3.Callback callback){

@@ -2,9 +2,6 @@ package android.coolweather.com.coolweather.db;
 
 import org.litepal.crud.DataSupport;
 
-/**
- * Created by Administrator on 2017/11/29.
- */
 
 public class Province extends DataSupport {
     private int id;
@@ -19,13 +16,13 @@ public class Province extends DataSupport {
     public String getProvinceName(){
         return provinceName;
     }
-    public void setProvinceName(String provinceName){
+    public static void setProvinceName(String provinceName){
         this.provinceName = provinceName;
     }
     public int getProvinceCode(){
         return provinceCode;
     }
-    public void setProvinceCode(int provinceCode){
+    public static void setProvinceCode(int provinceCode){
         this.provinceCode = provinceCode;
     }
 }
